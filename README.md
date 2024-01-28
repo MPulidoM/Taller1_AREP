@@ -1,5 +1,5 @@
-# Taller1_AREP
-En este taller se construyó una aplicación web para consultar información de películas usando el API de OMDb. La aplicación tiene un cliente web asíncrono, un servidor como gateway, caché y un cliente Java para pruebas. Teniendo a uso  HTML, CSS, JavaScript y Java.
+# TALLER 1: APLICACIONES DISTRIBUIDAS (HTTP, SOCKETS, HTML, JS,MAVEN, GIT)
+En este taller se construyó una aplicación web para consultar información de películas usando el API de OMDb. La aplicación tiene un cliente web asíncrono, un servidor como gateway, caché y un cliente Java para pruebas. Teniendo a uso  HTML, CSS, JavaScript y Java. T
 
 ## Empezando
 
@@ -19,72 +19,44 @@ java -version
 
 ### Instalando
 
-Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo.
-
-Di cuál será el paso.
+Para poder ver el funcionamiento de este taller , en si instalar este programa, debe clonar el repositorio en su mauina local. Para esrto utilice el siguiente comando y ejecutelo.
 
 ```
-da el ejemplo
+$ git clone https://github.com/MPulidoM/Taller1_AREP
 ```
-
-Y repetir
-
+Para poder ver la aplicación web , se debe inicar en el IDE Utilizado el [HTTPServer](https://github.com/MPulidoM/Taller1_AREP/blob/main/miprimera-app/src/main/java/edu/escuelaing/arem/ASE/app/Taller1/HttpServer.java). Lo siguiente es abrir el navegador , en el caso de este taller se trabajo más que todo en Google, y poner en el siguiente 
 ```
-hasta terminar
+localhost:35000
 ```
-
-Termine con un ejemplo de cómo sacar algunos datos del sistema o usarlos para una pequeña demostración.
 
 ## Ejecutando las pruebas
 
-Explicar cómo ejecutar las pruebas automatizadas para este sistema.
-
-### Dividir en pruebas de un extremo a otro
-
-Explique qué prueban estas pruebas y por qué.
-
+Ya teniendo el proyecto compilado sin ningún problemas utilizando 
 ```
-Dar un ejemplo
+mvn package
 ```
-
-### Y pruebas de estilo de codificación
-
-Explique qué prueban estas pruebas y por qué.
-
+Utilice el siguiente comando para ver las pruebas hechas
 ```
-Dar un ejemplo
+mvn test
 ```
 
-## Implementación
-
-Agregue notas adicionales sobre cómo implementar esto en un sistema en vivo
 
 ## Construido con
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El marco web utilizado
 * [Maven](https://maven.apache.org/) - Gestión de dependencias
-* [ROMA](https://rometools.github.io/rome/) - Se utiliza para generar canales RSS
+* [Java](https://www.java.com/es/) - Lenguaje Utilizado
+* [GitHub](https://git-scm.com/) - Control de Versiones
 
-## Contribuyendo
 
-Lea [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) para obtener detalles sobre nuestro código de conducta y el proceso para enviarnos solicitudes de extracción.
-
-## Versionado
-
-Usamos [SemVer](http://semver.org/) para el control de versiones. Para conocer las versiones disponibles, consulte las [etiquetas en este repositorio] (https://github.com/your/project/tags).
 
 ## Autores
 
-* **Billie Thompson** - *Trabajo inicial* - [PurpleBooth](https://github.com/PurpleBooth)
-
-Consulte también la lista de [colaboradores](https://github.com/your/project/contributors) que participaron en este proyecto.
+* **Mariana Pulido Moreno** - *Arep 101* - [MPulidoM](https://github.com/MPulidoM)
 
 ## Licencia
 
-Este proyecto tiene la licencia MIT; consulte el archivo [LICENSE.md](LICENSE.md) para obtener más detalles.
+Este proyecto esta licenciado por GNU General Public License v3.0 .
 
-## Agradecimientos
 
-* Un consejo para cualquiera cuyo código se haya utilizado
-* Inspiración
-* etc
+
+
