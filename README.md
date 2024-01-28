@@ -1,5 +1,5 @@
 # TALLER 1: APLICACIONES DISTRIBUIDAS (HTTP, SOCKETS, HTML, JS,MAVEN, GIT)
-En este taller se construyó una aplicación web para consultar información de películas usando el API de OMDb. La aplicación tiene un cliente web asíncrono, un servidor como gateway, caché y un cliente Java para pruebas. Teniendo a uso  HTML, CSS, JavaScript y Java. T
+En este taller se construyó una aplicación web para consultar información de películas usando el API de OMDb. La aplicación tiene un cliente web asíncrono, un servidor como gateway, caché y un cliente Java para pruebas. Teniendo a uso  HTML, CSS, JavaScript y Java. Para el desarrollo de este taller también se conto con el apoyo  de lo trabajado en el laboratorio previo, videos para mayor claridad e inteligencias artificiales como Bard y BalckBox para los bloqueos presentados.
 
 ## Empezando
 
